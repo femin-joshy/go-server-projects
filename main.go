@@ -10,9 +10,9 @@ import (
 // program to haggle internationally lol
 // struct for saving the base common marketplace val
 type Product struct{
-	ID 	      string 'json:"id"'
+	ID 	      int    'json:"id"'
 	TITLE         string 'json:"title"'
-	PRICE         string 'json:"price"'
+	PRICE         float  'json:"price"'
 	DESC          string 'json:"desc"'
 	LOCATION      string 'json:"location"'
 	CURRENCY      string 'json:"currency"' // this should be dyn
