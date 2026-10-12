@@ -10,7 +10,7 @@ import (
 // program to haggle internationally lol
 // struct for saving the base common marketplace val
 type Product struct{
-	ID 	      int    'json:"id"'
+	ID    	        int    'json:"id"'
 	TITLE         string 'json:"title"'
 	PRICE         float  'json:"price"'
 	DESC          string 'json:"desc"'
